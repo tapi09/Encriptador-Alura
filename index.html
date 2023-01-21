@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>
+        Encriptador
+    </title>
+    <link rel="stylesheet" href="/style/reset.css"/>
+    <link rel="stylesheet" href="/style/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="logo a de Alura" class="logo">
+    </header>
+    <main>
+        <fieldset>
+            <legend class="caja-texto">
+                <label for="texto-ingresado"></label>
+                <textarea  maxlength="450" cols="30" rows="10" type="text" id="texto-ingresado" required placeholder="Ingrese el texto aqui" autofocus></textarea>
+            </legend>
+            <legend class="botonera">
+                <p id="aclaracion"><img src="img/Icono-admiracion.png" alt="icono"> Solo letras minúsculas y sin acentos</p>
+                <div >
+                    <input class="boton-encriptar" id="boton-encriptar" type="submit" value="Encriptar">
+                </div>
+                <div >
+                    <input class="boton-desencriptar" id="boton-desencriptar"type="submit" value="Desencriptar">
+                </div>
+            </legend>
+        </fieldset>
+        <section class="espacio-munieco">
+            <legend class="munieco" id="munieco">
+                <img src="img/Muñeco.png" alt="imagen caricatura con lupa">
+            </legend>
+            <legend class="bajo-munieco">
+            <h2 id="cabecera-pantalla"></h2>
+            <h2 class="sin-mensajes" id="sin-mensajes">Ningún mensaje fue encontrado</h2>
+            <p id="pantalla" >Ingresa el texto que desees encriptar o desencriptar</p>
+            <button id="copiar" >Copiar</button>
+            </legend>
+        </section>
+    </main>
+   <footer>
+        <a href="https://www.linkedin.com/in/david-sanchez-dev" class="contacto">© david-sanchez-dev</a></h2> 
+   </footer>
+    
+</body>
+<script src="/js/script.js"></script>
+</html>

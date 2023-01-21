@@ -1,0 +1,180 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background: #efefef;
+    color: #0A3871; 
+}
+header{
+    float: left;
+    padding-top: 2.5em;
+    padding-left: 6em;
+}
+.logo{
+    border-radius: 40%;
+    margin: 1em;
+    background: transparent;
+    box-shadow: inset 1px 10px 5px #efefef, 0px 7px 4px -6px rgb(0, 0, 0,0.5) ;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+fieldset{
+    width: 100%;
+    display: inline-block;
+}
+.caja-texto{
+    width: 90%;
+}
+#texto-ingresado {
+    width: 100%;
+    height: 10em;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 1.5em;
+    border: transparent;
+    font-family: 'Orbitron', sans-serif;
+    background: transparent;
+    color: #0A3871; 
+    resize: none;
+}
+#texto-ingresado::placeholder{
+    color: #0A3871;
+}
+#texto-ingresado:focus{
+    outline: none;
+    border: none;
+}
+input{
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+.botonera :not(#aclaracion){
+    display: inline-flex;
+    margin-top: 0.5em;
+}
+#aclaracion{
+    margin-top: 20em;
+    bottom: 0px;
+    left: 0px;
+}
+.botonera{
+    width: 53rem;
+
+}
+.boton-encriptar{
+    margin-right: 1.5em;
+    background-color: #0A3871;
+    color: #efefef;
+    width: 25rem;
+    height: 3.2rem;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 1.1em;
+    font-size: large;
+    border: none;
+    box-shadow: 0em 0.3em 0.5em black;
+}
+.boton-encriptar:hover{
+    box-shadow: 0em 0.7em 0.9em black;
+}
+
+.boton-desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    width: 25rem;
+    height: 3.2rem;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 1.1em;
+    font-size: large;
+    border: none;
+    box-shadow: 0em 0.3em 0.5em black;
+}
+.boton-desencriptar:hover{
+    box-shadow: 0em 0.7em 0.9em black;
+}
+
+.espacio-munieco{
+    width: 90%;
+    height: 45rem;
+    background-color: white;
+    border-radius: 32px ;
+    margin: 1.5em 1.5em 0 0;
+    padding: 1em;
+    box-shadow: 0 0.5em 1em -0.5em black;
+    
+    
+}
+.munieco{
+    display: flex;
+    justify-content: center;
+    margin: 10em 0 5em 0;
+}
+.bajo-munieco{
+    text-align: center;
+    width: 53rem;
+}
+.sin-mensajes{
+    margin: 0.5em 0em;
+    font-size: 1.7em;
+    color: #0A3871;
+    text-align: center;
+    width: 100%;
+}
+#cabecera-pantalla{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#pantalla{
+    width: inherit;
+    word-wrap: break-word;
+    font-size: 1.2em;
+    color: #0A3871;
+    margin-bottom: 0;
+    
+}
+#copiar{
+    margin-top: 20%;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    width: 15em;
+    height: 2.5em;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 1.1rem;
+    font-size: large;
+    border: none;
+    box-shadow: 0 0.3em 0.5em black;
+    transition: 400ms;
+}
+#copiar:hover{
+box-shadow: 0em 0.7em 0.9em black;
+}
+
+footer{
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(#efefef , #0A3871);
+    text-align: center;
+    padding-top: 5rem;
+    position: fixed;
+    margin-top: 2rem;
+
+}
+.contacto{
+    width: 100%;
+    height: 100%;
+    color: darkblue;
+    transition: 450ms;
+}
+.contacto:link{
+    text-decoration: none;
+    color: darkblue;
+}
+.contacto:visited{
+    text-decoration: none;
+    color: darkblue;
+}
+.contacto:hover{
+    font-size: 1.5em;
+}
+
